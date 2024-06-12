@@ -1,0 +1,106 @@
+<style>
+#container { 	
+	min-height: 200px;
+	min-height: auto;
+	}
+#logo {
+height:80px;
+line-height:80px ;
+text-align:center  ;
+font-family: courier;
+}
+#logo img {
+height:80px;
+background-image:url("images/portfolioimage.jpg") ;
+}
+
+#mid-container {
+	height: auto;
+	min-height: 400px ;
+	margin-top: 40px ;
+	}
+
+	
+.box {
+	
+	
+	height: 400px;
+	float: left;
+	}
+	
+#footer {
+	background-color: #6e5f62;
+    bottom: 0px;
+	height: 25px;
+	width: 100%;
+	text-align: center;
+	font-family: courier;
+	position: fixed;
+	}
+
+#slider-image {
+height: 520px ;
+margin-bottom: 20px ;
+}
+#slider{
+min-height:400px ;
+height:auto;
+}
+
+#index-slider-img {
+	height: 500px;
+	width: 100% ;
+	background-image:url("images/portfolioslider.jpg");
+	background-color:#e5e5e5;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	}
+	
+#about-slider-img {
+	height: 500px;
+	width: 100%; 
+	background-image:url("images/aboutslider.jpg");
+	background-color:#e5e5e5;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	}
+	
+	
+#contact-slider-img {
+    height: 300px;
+	background-image:url("images/contactsliderimage.jpg");
+	background-color:#e5e5e5;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	}
+	
+.menu {
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	color:green;
+	text-transform:uppercase;
+	}
+.menu a{
+	color:red;
+}
+.menu a:hover {
+	color:black;
+}
+.menu button {
+border:0;
+background:none;
+}
+
+.menu ul li {
+line-height:40px !important;
+height:40px;
+text-decoration:none !important;
+}
+
+
+
+</style>
